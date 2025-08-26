@@ -65,13 +65,13 @@ enum TaskType {
 ### Task
 ```cpp
 struct Task {
-  uint32_t id;                 // Уникальный идентификатор
-  std::function<void()> callback; // Функция для выполнения
-  TaskType type;               // Тип задачи
-  unsigned long interval;      // Интервал в миллисекундах
-  unsigned long lastExecution; // Время последнего выполнения
-  bool active;                 // Флаг активности
-  String name;                 // Имя для удобства
+  uint32_t id;                       // Уникальный идентификатор
+  std::function<void()> callback;    // Функция для выполнения
+  TaskType type;                     // Тип задачи
+  unsigned long interval;            // Интервал в миллисекундах
+  unsigned long lastExecution;       // Время последнего выполнения
+  bool active;                       // Флаг активности
+  String name;                       // Имя для удобства
 };
 ```
 
@@ -253,5 +253,6 @@ void loop() {
 - Максимальный интервал: ~49 дней (ограничение `millis()`)
 - Не предназначен для real-time задач
 - Однопоточное выполнение (ESP8266 single core)
+
 
 
