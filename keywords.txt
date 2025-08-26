@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For TaskManager
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+TaskManager	KEYWORD1
+TaskType	KEYWORD1
+Task	  	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+addTask					KEYWORD2
+removeTask				KEYWORD2
+removeTaskByName		KEYWORD2
+removeAllTasks			KEYWORD2
+removeInactiveTasks		KEYWORD2
+update					KEYWORD2
+taskExists				KEYWORD2
+taskExistsByName		KEYWORD2
+getTaskCount			KEYWORD2
+getActiveTaskCount		KEYWORD2
+listTasks				KEYWORD2
+pauseTask				KEYWORD2
+pauseTaskByName			KEYWORD2
+resumeTask				KEYWORD2
+resumeTaskByName		KEYWORD2
+setTaskIntervalByName	KEYWORD2
+setTaskIntervalByName	KEYWORD2
+findTaskIdByName		KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+TASK_ONCE		LITERAL1
+TASK_PERIODIC	LITERAL1
